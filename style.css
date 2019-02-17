@@ -21,8 +21,9 @@ header {
   margin: 4em auto;
   font-size: 20px;
   line-height: 30px;
-  text-align: justify;
 }
+
+
 
 .logo {
   line-height: 60px;
@@ -80,6 +81,25 @@ nav ul li a {
   color: #fff;
   display: none;
 }
+
+.stylish-color-dark {
+  background-color: #3e4551 !important;
+}
+footer {
+  color: #fff;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #1565C0;
+}
+
+hr.light {
+  border-color: #fff
+}
+
+
 
 @media(max-width: 786px) {
 
