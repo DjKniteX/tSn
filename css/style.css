@@ -370,7 +370,7 @@ body{
 }
 .w3about-img {
     background: url(../images/TSKT-01.png)no-repeat 0px 0px;
-    background-size: cover;
+	background-size: contain;
     min-height: 30em;
     padding: 0;
 	position:relative;
