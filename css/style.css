@@ -19,10 +19,12 @@ body{
 	background:#FFFFFF;
 }
 .banner{
-	background: url(../images/TSKN000.jpg) no-repeat 0px 0px;
-	background-size: cover;
+	background: url(../images/TSKN000.jpg) no-repeat;
 	height: 960px;
+	background-size: cover;
+	background-position:center;
 }
+
 .agileinfo-dot{
 
     background-size: 2px;
