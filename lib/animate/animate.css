@@ -23,12 +23,12 @@
 
 .animated.flipOutX,
 .animated.flipOutY,
-.animated.bounceIn,
-.animated.bounceOut {
+.animated.In,
+.animated.Out {
   animation-duration: .75s;
 }
 
-@keyframes bounce {
+@keyframes  {
   from, 20%, 53%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transform: translate3d(0,0,0);
@@ -49,8 +49,8 @@
   }
 }
 
-.bounce {
-  animation-name: bounce;
+. {
+  animation-name: ;
   transform-origin: center bottom;
 }
 
@@ -299,7 +299,7 @@
   transform-origin: center;
 }
 
-@keyframes bounceIn {
+@keyframes In {
   from, 20%, 40%, 60%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -332,11 +332,11 @@
   }
 }
 
-.bounceIn {
-  animation-name: bounceIn;
+.In {
+  animation-name: In;
 }
 
-@keyframes bounceInDown {
+@keyframes InDown {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -364,11 +364,11 @@
   }
 }
 
-.bounceInDown {
-  animation-name: bounceInDown;
+.InDown {
+  animation-name: InDown;
 }
 
-@keyframes bounceInLeft {
+@keyframes InLeft {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -396,11 +396,11 @@
   }
 }
 
-.bounceInLeft {
-  animation-name: bounceInLeft;
+.InLeft {
+  animation-name: InLeft;
 }
 
-@keyframes bounceInRight {
+@keyframes InRight {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -428,11 +428,11 @@
   }
 }
 
-.bounceInRight {
-  animation-name: bounceInRight;
+.InRight {
+  animation-name: InRight;
 }
 
-@keyframes bounceInUp {
+@keyframes InUp {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -460,11 +460,11 @@
   }
 }
 
-.bounceInUp {
-  animation-name: bounceInUp;
+.InUp {
+  animation-name: InUp;
 }
 
-@keyframes bounceOut {
+@keyframes Out {
   20% {
     transform: scale3d(.9, .9, .9);
   }
@@ -480,11 +480,11 @@
   }
 }
 
-.bounceOut {
-  animation-name: bounceOut;
+.Out {
+  animation-name: Out;
 }
 
-@keyframes bounceOutDown {
+@keyframes OutDown {
   20% {
     transform: translate3d(0, 10px, 0);
   }
@@ -500,11 +500,11 @@
   }
 }
 
-.bounceOutDown {
-  animation-name: bounceOutDown;
+.OutDown {
+  animation-name: OutDown;
 }
 
-@keyframes bounceOutLeft {
+@keyframes OutLeft {
   20% {
     opacity: 1;
     transform: translate3d(20px, 0, 0);
@@ -516,11 +516,11 @@
   }
 }
 
-.bounceOutLeft {
-  animation-name: bounceOutLeft;
+.OutLeft {
+  animation-name: OutLeft;
 }
 
-@keyframes bounceOutRight {
+@keyframes OutRight {
   20% {
     opacity: 1;
     transform: translate3d(-20px, 0, 0);
@@ -532,11 +532,11 @@
   }
 }
 
-.bounceOutRight {
-  animation-name: bounceOutRight;
+.OutRight {
+  animation-name: OutRight;
 }
 
-@keyframes bounceOutUp {
+@keyframes OutUp {
   20% {
     transform: translate3d(0, -10px, 0);
   }
@@ -552,8 +552,8 @@
   }
 }
 
-.bounceOutUp {
-  animation-name: bounceOutUp;
+.OutUp {
+  animation-name: OutUp;
 }
 
 @keyframes fadeIn {
