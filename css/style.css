@@ -15,6 +15,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.card-img-top {
+  width: 270px;
+  height: 270px;
+}
+
 a {
   color: #1bb1dc;
   transition: 0.5s;
